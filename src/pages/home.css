@@ -1,0 +1,13 @@
+.main-page-container {
+  display: flex;
+  align-items: center;
+}
+.main-page-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-page-content img {
+  height: 500px;
+}

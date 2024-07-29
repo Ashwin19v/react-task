@@ -1,0 +1,87 @@
+body {
+  background-color: antiquewhite;
+}
+.auth-container {
+  padding: 10px;
+  min-width: 350px;
+  border-radius: 15px;
+  background-color: rgb(247, 212, 168);
+}
+.main-container {
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 220px;
+  gap: 0px;
+}
+.auth-title img {
+  height: 220px;
+  width: 220px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+.auth-form {
+  display: flex;
+  flex-direction: column;
+}
+.auth-form input {
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 90%;
+  margin: 10px auto;
+  height: 40px;
+}
+.auth-form button {
+  width: 40%;
+  margin: 0 auto;
+  height: 40px;
+  background-color: rgb(248, 192, 125);
+  border: none;
+}
+.auth-form span {
+  margin: 10px;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .auth-title img {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .auth-container {
+    animation: div 5s;
+  }
+}
+@keyframes div {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 455px) {
+  .auth-container {
+    width: 100%;
+  }
+}

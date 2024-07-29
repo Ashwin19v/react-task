@@ -1,0 +1,177 @@
+.ongoing-container,
+.important-container,
+.completed-container,
+.dash-container {
+  display: flex;
+}
+.dash-content,
+.completed-content,
+.important-content,
+.ongoing-content {
+  width: 80%;
+}
+.completed-content h2,
+.important-content h2,
+.ongoing-content h2 {
+  text-align: center;
+}
+.dash-form h2 {
+  text-align: center;
+}
+.dash-form form {
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background-color: rgb(247, 212, 168);
+  width: 45%;
+  margin: 0 auto;
+}
+.dash-form input {
+  margin: 10px;
+  background-color: rgb(248, 227, 193);
+}
+.dash-form button {
+  width: 40%;
+  height: 40px;
+  background-color: rgb(248, 227, 193);
+  border: none;
+  margin-bottom: 7px;
+}
+.dash-form-input {
+  width: 90%;
+  height: 33px;
+  border: none;
+  outline: none;
+}
+.dash-form-textarea {
+  background-color: rgb(248, 227, 193);
+}
+.dash-form-date {
+  width: 20%;
+  height: 25px;
+  border: none;
+  outline: none;
+}
+.todo-tasks {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(248, 227, 193);
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.todo-content {
+  max-height: 600px;
+  overflow-x: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.todo-content h4,
+.todo-content h5,
+.todo-content h2 {
+  margin-top: 5px;
+}
+.todo-content h2 {
+  background-color: rgb(247, 212, 168);
+  border-radius: 10px;
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+}
+.edit-task-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+.edit-task-form textarea {
+  background-color: rgb(247, 212, 168);
+}
+.edit-task-form input {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(247, 212, 168);
+  outline: none;
+  border: none;
+}
+.edit-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.edit-btns button {
+  border: none;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(247, 212, 168);
+}
+.task-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+
+  padding: 0;
+  height: 50px;
+  width: 100%;
+}
+.task-btns button {
+  padding: 2px;
+  height: 50px;
+  background-color: rgb(247, 212, 168);
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-btns button input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+.task-brief {
+  overflow: scroll;
+  text-align: center;
+}
+.input-container {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(248, 227, 193);
+}
+.input-container input {
+  flex: 1;
+  height: 40px;
+  background-color: rgb(250, 235, 210);
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+.input-container button {
+  height: 40px;
+  margin-left: 7px;
+  background-color: rgb(247, 212, 168);
+  border: none;
+}
+.todo-date {
+  color: gray;
+  font-weight: lighter;
+  position: relative;
+  top: 20px;
+  left: 100px;
+}
